@@ -1,0 +1,329 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a:hover{
+	text-decoration: none;
+    color: #000;
+}
+
+/*-----Cabeçalho-----*/
+nav{
+	border-bottom: 2px solid #C24204;
+}
+
+ .logo{
+	font-size: 32px;
+	font-weight: 700;
+}
+
+ .logo span{
+	color: #C24204;
+}
+
+.navbar-nav .nav-item{
+	font-size: 18px;
+	padding-right: 20px;
+}
+
+.navbar-nav .nav-item a strong{
+	color: black;
+	font-weight: 500;
+}
+
+.navbar-nav .nav-item a strong:hover{
+	color: #C24204;
+	transition: 0.5s;
+}
+
+.navbar-nav .nav-item i{
+	font-size: 22px;
+	color: #C24204;
+}
+
+.navbar-nav .nav-item i:hover{
+	color: #666;
+	transition: 0.5s;
+}
+/*-----Fim Cabeçalho-----*/
+
+/*-----Carousel-----*/
+#carouselSite .carousel-indicators li{
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	margin-top: 20px;
+}
+
+#carouselSite .carousel-indicators .active{
+	background-color: #C24204;
+}
+
+.carousel-inner .botao{
+	margin-bottom: 30px;
+}
+
+.carousel-item{
+	max-height: 600px !important;
+	width: 100%;
+}
+
+.carousel-item img{
+	opacity: 1;
+
+}
+
+.carousel-item .carousel-caption{
+	top: 30%;
+}
+
+.carousel-caption h1{
+	font-size: 50px;
+}
+
+.carousel-caption p{
+	font-size: 20px;
+}
+
+@media(max-width: 991px){
+	.carousel-item .carousel-caption{
+		top: 30%;
+	}
+
+	.carousel-caption h1{
+		font-size: 35px;
+	}
+	
+	.carousel-caption p{
+		font-size: 17px;
+	}
+}
+/*-----Fim Carousel-----*/
+
+/*-----Produtos-----*/
+.produtos .bg{
+	background-color: #EFEAE7;
+	padding: 10px 10px;
+}
+
+.produtos .bg p{
+	font-weight: 500;
+	color: #333;
+	font-style: italic;
+}
+
+.produtos .borda:hover{
+	border: 2px solid #C24204;
+	transition: 0.5s;
+}
+
+.btn-primary{
+	background-color: #C24204;
+	color: #fff;
+	border: none;
+}
+
+.btn-primary:hover{
+	background-color: #000;
+	transition: 0.5s;
+}
+
+.produtos img{
+	width: 100%;
+}
+/*-----Fim Produtos-----*/
+
+/*-----Sobre-----*/
+.barra{
+	background-color: #EFEAE7;
+	padding: 17px 0;
+	height: 60px;
+	font-weight: 500;
+}
+
+.barra span{
+	color: #C24204;
+}
+
+.sobre .card-body i{
+	font-size: 30px;
+}
+
+.sobre .card:hover{
+	background-color: #C24204;
+	transition: 0.6s;
+	cursor: pointer;
+	color: #fff;
+}
+/*-----Fim Sobre-----*/
+
+/*-----Contactos-----*/
+.input{
+	height: 40px;
+	padding-top: 0;
+	border-radius: 0;
+	border: 1px solid #777;
+}
+
+.contactos form textarea{
+	height: 120px;
+	border-radius: 0;
+	border: 1px solid #777;
+}
+
+.contactos .texto p{
+	font-size: 18px;
+}
+/*-----Fim Contactos-----*/
+
+/*-----Parceiros-----*/
+.parceiros img{
+	transform: scale(1);
+	transition: 0.7s;
+	filter: grayscale(100%);
+}
+
+.parceiros img:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+	filter: none;
+}
+
+.parceiros .parc{
+	border: 1px solid #ececec;
+	align-items: center;
+	justify-content: center;
+}
+/*-----Fim Parceiros-----*/
+
+.btn-lg:hover{
+	background-color: #fff;
+	color: #C24204;
+	transition: 0.7s;
+}
+
+/*-----Rodapé-----*/
+footer .barra-top{
+	background-color: #EFEAE7;
+	padding: 30px 0;
+	border-top: 2px solid #C24204;
+}
+
+footer .barra-inferior{
+	background-color: #000;
+	padding: 15px 0;
+	color: #EFEAE7;
+}
+
+footer .barra-inferior .desenvolvedor a{
+	color: #C24204;
+}
+
+footer .barra-inferior .desenvolvedor a:hover{
+	color: #666;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.logo{
+	color: #000;
+	text-decoration: none;
+	font-size: 50px;
+}
+
+footer .card-logo{
+	background-color: #fff;
+	border-bottom: 2px solid #C24204;
+	border-radius: 5px;
+	padding: 0 20px;
+	text-align: center;
+	margin-top: 2%;
+}
+
+footer .social a{
+	height: 30px;
+	width: 30px;
+	padding: 13px 15px;
+	border-radius: 50%;
+	background-color: #C24204;
+	color: #fff;
+	margin-right: 10px;
+}
+
+footer .social{
+	margin-bottom: 20px;
+}
+
+footer .social a:hover{
+	background-color: #333;
+	transition: 0.5s;
+}
+
+footer .links-rodape ul li{
+	list-style: none;
+	font-size: 17px;
+}
+
+footer .links-rodape ul li a{
+	color: #333;
+	font-weight: 500;
+}
+
+footer .links-rodape ul li a:hover{
+	color: #C24204;
+	transition: 0.5s;
+	text-decoration: none;
+}
+
+footer .links-rodape ul li i{
+	color: #C24204;
+	font-weight: 600;
+}
+
+.btn-top{
+    z-index: 999;
+    display: inline-block;
+    position: fixed;
+    background-color: #C24204;
+    color: #fff;
+	border-radius: 5px;
+    bottom: 20px;
+    right: 20px;
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.btn-top:hover{
+    background-color: #666;
+	color: #C24204;
+}
+
+.btn-top i{
+    font-weight: 600; 
+	font-size: 20px;
+}
+/*-----Fim Rodapé-----*/
+
+.card-login{
+	background-color: #fff;
+	padding: 20px 20px;
+	border-radius: 5px;
+    margin: 0 10px;
+	box-shadow: 0 0 20px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 18%;
+}
+
+.btn-submit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-li{
+    list-style:none;
+    font-size:18px;
+    color: #1aa50e;
+}
